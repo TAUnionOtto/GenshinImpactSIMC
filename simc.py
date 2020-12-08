@@ -6,7 +6,7 @@ try:
     import numpy as np
 except:
     os.system("pip3 install numpy scipy matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple")
-    os.system("py "+os.path.dirname(__file__)+"/原神Simc V1.0 源代码.py")
+    os.system("py "+os.path.dirname(__file__)+"/simc.py")
     sys.exit(0);
 import os
 import sys
